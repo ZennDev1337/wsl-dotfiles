@@ -1,0 +1,4 @@
+export dev=/mnt/z/ZennDev
+export whome=/mnt/c/Users/zenn
+export wdev=/mnt/d/DevSpace
+export project=~/project
