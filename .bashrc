@@ -34,12 +34,6 @@ if [ "$color_prompt" = yes ]; then
 else
     PS1='[$(timeNow)] \u@\h \w$(gitPS1) :/$ '
 fi
-#################
-#  Path / env   #
-#################
-export PATH="$HOME/nvim/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
-. "$HOME/.cargo/env"
 
 #################
 #    Anderes    #
